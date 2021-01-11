@@ -6,7 +6,9 @@
 
 - Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
 
-- Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. 
+- Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+> Reference: https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm
 
 - Installing Node.js version 14.15.4: https://nodejs.org/en/download/
 
@@ -22,8 +24,7 @@
 - JavaScript is the most popular implementation of ECMA-262 standard.
 - Netscape proposed JavaScript to ECMA for standarlization but due trademark issue with name JavaScript, standard became ECMAScript.
 
-- Javascript is a dynamically type language.
-- Typecript is a statically typed language.
+- JavaScript is a dynamically type language.
 
 > Reference: https://stackoverflow.com/questions/4269150/what-is-ecmascript
 
