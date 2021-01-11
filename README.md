@@ -29,49 +29,49 @@
 
 ## WEEK 1
 
-- [ ] Data Types
+- [ ] [Data Types](https://www.programiz.com/javascript/data-types)
 
-- [ ] let, const and var
+- [ ] [let, const and var](https://www.programiz.com/javascript/variables-constants)
 
-- [ ] Basic Operators
+- [ ] [Basic Operators](https://www.programiz.com/javascript/operators)
 
-- [ ] Operator Precedence
+- [ ] [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
 
 - [ ] Strings and Template Literals
 
-- [ ] Taking Decisions: if / else Statements
+- [ ] [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
 
-- [ ] Type Conversion and Coercion
+- [ ] [Type Conversion and Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
 - [ ] Truthy and Falsy Values
 
-- [ ] Equality Operators: == vs. ===
+- [ ] [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
 
 - [ ] Boolean Logic
 
-- [ ] Logical Operators
+- [ ] [Logical Operators](https://www.programiz.com/javascript/operators)
 
 - [ ] The switch Statement
 
 - [ ] Statements and Expressions
 
-- [ ] The Conditional (Ternary) Operator
+- [ ] [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
 
 - [ ] Activating Strict Mode
 
-- [ ] Functions
+- [ ] [Functions](https://www.programiz.com/javascript/function)
 
 - [ ] Function Declarations vs. Expressions
 
-- [ ] Arrow Functions (vs Normal functions)
+- [ ] [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
 
 - [ ] Basic Array Operations (Methods)
 
-- [ ] Introduction to Objects
+- [ ] [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
 
 - [ ] Dot vs. Bracket Notation
 
-- [ ] Object Methods
+- [ ] [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
 - [ ] Iteration: The for Loop
 
