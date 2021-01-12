@@ -36,7 +36,7 @@
 
 - [x] [Basic Operators](https://www.programiz.com/javascript/operators)
 
-- [ ] [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
+- [x] [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
 
 - [ ] Strings and Template Literals
 
@@ -46,11 +46,11 @@
 
 - [ ] Truthy and Falsy Values
 
-- [ ] [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
+- [x] [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
 
 - [ ] Boolean Logic
 
-- [ ] [Logical Operators](https://www.programiz.com/javascript/operators)
+- [x] [Logical Operators](https://www.programiz.com/javascript/operators)
 
 - [ ] The switch Statement
 

@@ -119,6 +119,6 @@ let x = 'hello', y = 'world';
 
 let obj = {x: 'x', y: 'y', z: 'z'}; // Comma separator
 
-...something; // Spread Operator
+// ...something; // Spread Operator
 
 // TO_DO: Bitwise Operator
