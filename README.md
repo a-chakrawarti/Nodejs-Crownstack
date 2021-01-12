@@ -62,9 +62,9 @@
 
 - [x] Activating Strict Mode
 
-- [ ] [Functions](https://www.programiz.com/javascript/function)
+- [x] [Functions](https://www.programiz.com/javascript/function)
 
-- [ ] Function Declarations vs. Expressions
+- [x] Function Declarations vs. Expressions
 
 - [ ] [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
 
