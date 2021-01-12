@@ -34,7 +34,7 @@
 
 - [x] [let, const and var](https://www.programiz.com/javascript/variables-constants)
 
-- [ ] [Basic Operators](https://www.programiz.com/javascript/operators)
+- [x] [Basic Operators](https://www.programiz.com/javascript/operators)
 
 - [ ] [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
 
