@@ -26,6 +26,9 @@ const myFirstDay = `Hello, I am ${fullName}` + ` and today was my first day at $
 
 var aValue; // a variable having identifier "aValue", undefined
 
+// If a variable is declared but the value is not assigned, 
+// then the value of that variable will be undefined
+
 console.log(myFirstDay);
 
 console.log(aValue); 

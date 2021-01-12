@@ -30,9 +30,9 @@
 
 ## WEEK 1
 
-- [ ] [Data Types](https://www.programiz.com/javascript/data-types)
+- [x] [Data Types](https://www.programiz.com/javascript/data-types)
 
-- [ ] [let, const and var](https://www.programiz.com/javascript/variables-constants)
+- [x] [let, const and var](https://www.programiz.com/javascript/variables-constants)
 
 - [ ] [Basic Operators](https://www.programiz.com/javascript/operators)
 
