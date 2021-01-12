@@ -28,6 +28,8 @@
 
 > Reference: https://stackoverflow.com/questions/4269150/what-is-ecmascript
 
+> List of [Reserved Words in JS](http://www.javascripter.net/faq/reserved.htm)
+
 ## WEEK 1
 
 - [x] [Data Types](https://www.programiz.com/javascript/data-types)
@@ -58,7 +60,7 @@
 
 - [ ] [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
 
-- [ ] Activating Strict Mode
+- [x] Activating Strict Mode
 
 - [ ] [Functions](https://www.programiz.com/javascript/function)
 
@@ -70,7 +72,7 @@
 
 - [ ] [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
 
-- [ ] Dot vs. Bracket Notation
+- [x] Dot vs. Bracket Notation
 
 - [ ] [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
