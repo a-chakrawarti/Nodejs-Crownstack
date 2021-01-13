@@ -76,7 +76,7 @@
 
 - [ ] [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
-- [ ] Iteration: The for Loop
+:white_check_mark: Iteration: The for Loop
 
 - [ ] Looping Arrays, Breaking and Continuing
 
