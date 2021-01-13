@@ -32,39 +32,39 @@
 
 ## WEEK 1
 
-- [x] [Data Types](https://www.programiz.com/javascript/data-types)
+:white_check_mark: [Data Types](https://www.programiz.com/javascript/data-types)
 
-- [x] [let, const and var](https://www.programiz.com/javascript/variables-constants)
+:white_check_mark: [let, const and var](https://www.programiz.com/javascript/variables-constants)
 
-- [x] [Basic Operators](https://www.programiz.com/javascript/operators)
+:white_check_mark: [Basic Operators](https://www.programiz.com/javascript/operators)
 
-- [x] [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
+:white_check_mark: [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
 
 - [ ] Strings and Template Literals
 
-- [x] [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
+:white_check_mark: [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
 
 - [ ] [Type Conversion and Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
 - [ ] Truthy and Falsy Values
 
-- [x] [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
+:white_check_mark: [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
 
 - [ ] Boolean Logic
 
-- [x] [Logical Operators](https://www.programiz.com/javascript/operators)
+:white_check_mark: [Logical Operators](https://www.programiz.com/javascript/operators)
 
-- [x] The switch Statement
+:white_check_mark: The switch Statement
 
 - [ ] Statements and Expressions
 
-- [x] [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
+:white_check_mark: [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
 
-- [x] Activating Strict Mode
+:white_check_mark: Activating Strict Mode
 
-- [x] [Functions](https://www.programiz.com/javascript/function)
+:white_check_mark: [Functions](https://www.programiz.com/javascript/function)
 
-- [x] Function Declarations vs. Expressions
+:white_check_mark: Function Declarations vs. Expressions
 
 - [ ] [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
 
@@ -72,7 +72,7 @@
 
 - [ ] [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
 
-- [x] Dot vs. Bracket Notation
+:white_check_mark: Dot vs. Bracket Notation
 
 - [ ] [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
