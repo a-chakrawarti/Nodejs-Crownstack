@@ -15,5 +15,5 @@ It is recommended to use inside a function as there could be issues while concat
     console.log(NaN);
 })();
 
-// These function are also known as *Immediately Invoked function expression* or *(iife)*.
+// These function are also known as *Immediately Invoked function expression* or *(IIFEs)*.
 // Adds new reserved words, package, protected, implements, interface, private and static.
