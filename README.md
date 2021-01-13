@@ -82,7 +82,7 @@
 
 - [ ] Looping Backwards and Loops in Loops
 
-- [ ] The while Loop
+:white_check_mark: The while Loop
 
 ### Reference Link: 
 - https://code.tutsplus.com/courses/javascript-fundamentals [Video]
