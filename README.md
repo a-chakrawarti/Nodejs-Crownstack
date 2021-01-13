@@ -42,7 +42,7 @@
 
 - [ ] Strings and Template Literals
 
-- [ ] [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
+- [x] [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
 
 - [ ] [Type Conversion and Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
@@ -54,11 +54,11 @@
 
 - [x] [Logical Operators](https://www.programiz.com/javascript/operators)
 
-- [ ] The switch Statement
+- [x] The switch Statement
 
 - [ ] Statements and Expressions
 
-- [ ] [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
+- [x] [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
 
 - [x] Activating Strict Mode
 
