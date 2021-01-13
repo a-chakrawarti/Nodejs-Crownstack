@@ -40,7 +40,7 @@
 
 :white_check_mark: [Operator Precedence](https://www.geeksforgeeks.org/operator-precedence-in-javascript/)
 
-- [ ] Strings and Template Literals
+:white_check_mark: Strings and Template Literals
 
 :white_check_mark: [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
 
