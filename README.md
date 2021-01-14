@@ -68,7 +68,7 @@
 
 - [ ] [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
 
-- [ ] Basic Array Operations (Methods)
+:white_check_mark: Basic Array Operations (Methods)
 
 - [ ] [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
 
