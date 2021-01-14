@@ -44,9 +44,9 @@
 
 :white_check_mark: [Taking Decisions: if / else Statements](https://www.guru99.com/how-to-use-conditional-statements-in-javascript.html)
 
-- [ ] [Type Conversion and Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
+:white_check_mark: [Type Conversion and Coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 
-- [ ] Truthy and Falsy Values
+:white_check_mark: Truthy and Falsy Values
 
 :white_check_mark: [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
 
