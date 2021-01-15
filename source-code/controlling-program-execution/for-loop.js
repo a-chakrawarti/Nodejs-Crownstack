@@ -76,3 +76,14 @@ for (let val of myMap) {
 }
 
 // In terms of performance, for of loop is slightly faster both for-in and for loop.
+
+
+// forEach loop
+
+var numbers = [45, 4, 9, 16, 25];
+numbers.forEach( (value, index, array) => { return console.log(`At index ${index}: ${value} is present.`) // Arrow function / fat arrow
+});
+
+// function myFunction(value, index, array) {
+//      console.log('value');
+// }

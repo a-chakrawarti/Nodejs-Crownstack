@@ -50,13 +50,13 @@
 
 :white_check_mark: [Equality Operators: == vs. ===](https://www.programiz.com/javascript/operators)
 
-- [ ] Boolean Logic
+:white_check_mark: Boolean Logic
 
 :white_check_mark: [Logical Operators](https://www.programiz.com/javascript/operators)
 
 :white_check_mark: The switch Statement
 
-- [ ] Statements and Expressions
+:white_check_mark: Statements and Expressions
 
 :white_check_mark: [The Conditional (Ternary) Operator](https://www.programiz.com/javascript/ternary-operator)
 
