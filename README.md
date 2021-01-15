@@ -70,11 +70,11 @@
 
 :white_check_mark: Basic Array Operations (Methods)
 
-- [ ] [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
+:white_check_mark: [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
 
 :white_check_mark: Dot vs. Bracket Notation
 
-- [ ] [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
+:white_check_mark: [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
 :white_check_mark: Iteration: The for Loop
 

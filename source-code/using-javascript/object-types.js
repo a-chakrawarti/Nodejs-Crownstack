@@ -81,3 +81,21 @@ Object.preventExtensions(duplicateObj);
 duplicateObj.height = '5\'10"';
 
 console.log(duplicateObj);
+
+// Object.assign(): copy values from one to another or
+// merge them
+
+let name = {
+    firstName: 'Anupam',
+    lastName: 'Chakrawarti'
+}
+
+let details = {
+    phoneNumber: '98xxxxx180',
+    emailId: 'chaxxxxxxxxxx@gmail.com'
+}
+
+let personalDetails = Object.assign(name, details);
+
+console.log(personalDetails);
+
