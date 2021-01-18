@@ -66,7 +66,7 @@
 
 :white_check_mark: Function Declarations vs. Expressions
 
-- [ ] [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
+:white_check_mark: [Arrow Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/) (vs Normal functions)
 
 :white_check_mark: Basic Array Operations (Methods)
 
