@@ -80,10 +80,31 @@ for (let val of myMap) {
 
 // forEach loop
 
+console.log('-----------------ForEach-----------------');
+
 var numbers = [45, 4, 9, 16, 25];
 numbers.forEach( (value, index, array) => { return console.log(`At index ${index}: ${value} is present.`) // Arrow function / fat arrow
 });
 
+numbers.forEach((val, index) => console.log('At ', index, 'value is ', val));
+
 // function myFunction(value, index, array) {
 //      console.log('value');
 // }
+
+// for-in with Array
+console.log('Usage for-in loop Array:')
+for(let val in numbers) {
+    console.log(numbers[val]);
+}
+
+// Loop backwards
+
+console.log('\n\n\nLoop backwards')
+newArr = [1, 2, 3, 4, 5];
+
+for (let i = newArr.length - 1; i >= 0; i--) {
+    console.log(newArr[i]);
+}
+
+// Reference: https://www.techiedelight.com/loop-through-array-backwards-javascript/
