@@ -70,15 +70,15 @@
 
 :white_check_mark: Basic Array Operations (Methods)
 
-:white_check_mark: [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/)
+:white_check_mark: [Introduction to Objects](https://www.geeksforgeeks.org/objects-in-javascript/) 
 
 :white_check_mark: Dot vs. Bracket Notation
 
-:white_check_mark: [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
+:white_check_mark: [Object Methods](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript) TO_DO: Go through Prototype
 
-:white_check_mark: Iteration: The for Loop
+:white_check_mark: Iteration: The for Loop TO_DO: Check usage of for-in, for-of and forEach
 
-- [ ] Looping Arrays, Breaking and Continuing
+:white_check_mark: Looping Arrays, Breaking and Continuing : TO_DO: Make patterns
 
 - [ ] Looping Backwards and Loops in Loops
 

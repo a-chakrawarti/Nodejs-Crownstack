@@ -1,6 +1,8 @@
 ### Difference between `var`, `let` and `const`.
 ***
 
+// var, let and const create non-configurable properties that cannot be deleted with the delete operator:
+
 Hoisting is a JavaScript mechanism where variables and function declarartions are moved to the top of their scope before execution.
 
 `var` : function-scoped and can be updated and redeclared.

@@ -71,6 +71,12 @@ console.log(5 >= 6); // ouputs false
 
 // Unary Operator: has a single operand rather than two
 
+// Delete has no effect on an object property that is as non-configurable. It will always return false.
+// In strict mode, this will raise a SyntaxError.
+
+// The delete operator will only delete the value and *not the index *of the array. It will leave the value of 
+// that particular index as undefined. This is why the length does not change.
+
 let test = {
     x: 'x'
 };
@@ -81,6 +87,8 @@ console.log(test.x); // undefined
 
 // So a delete operator deletes a property from an object, and we can't use this to
 // delete a variable.
+
+// Reference: https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful
 
 // ----------------------------------
 

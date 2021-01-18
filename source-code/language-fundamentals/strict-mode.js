@@ -1,7 +1,7 @@
 /*
 Non-strict JavaScript is also referred to as "Sloppy Mode".
 
-It is recommended to always use "strict mode" as all modern browsers support it, and causes some slient error to actually thrown an error.
+It is recommended to always use "strict mode" as all modern browsers support it, and causes some slient error to actually throw an error.
 - Prevents global variable from being created.
 
 To use strict mode, use `'use-strict';` either inside a function or a file.

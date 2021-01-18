@@ -50,8 +50,8 @@ for (let prop in obj) {
 
 console.log("\nFor of loop");
 
-// instead of keys being iterated of a object, values are iterated.
-// in for of loop we can't iterate objects
+// Instead of keys being iterated of a object, values are iterated.
+// In for-of loop we can't iterate objects.
 
 // used to iterate over true array or array-like object (aruguments)
 
