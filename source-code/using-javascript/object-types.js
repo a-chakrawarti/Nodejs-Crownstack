@@ -23,7 +23,8 @@ Object.keys(newObj).forEach(function (item) {
 
 let newArr = [1, 2, 3];
 Array.prototype.head = function () { return this[0]; }
-console.log(newArr.head());
+console.log('Prototype Head:', newArr.head());
+console.log(Array.prototype);
 
 newObj = {
     greet: 'Hello',
