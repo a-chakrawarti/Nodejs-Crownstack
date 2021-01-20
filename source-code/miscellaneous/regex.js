@@ -120,7 +120,13 @@ reg = /is\b/; // word boundary
 
 reg = /a(?=p)/; // after a we need a character p
 
-reg = /a(?!p)/; // anything but p after a // "an"
+// Positive lookahead, will only match if theregular expression is
+// followed by the lookahead string
+
+let javaCheck = /java(?=script)/i; // java is followed by script
+log(javaCheck.test('Java'))
+
+reg = /a(?!p)/; // anything but p after a // "an" // Negative Lookahead
 
 
 // Console-log outputs
