@@ -109,7 +109,43 @@ df.appendChild(newElement);
 let target = document.getElementById('target');
 target.appendChild(df);
 
-// DOM Events: add eventHandlers : TO_DO
+// DOM Events: Interactive by responding to eventHandlers for different user actions on UI:
+
+// Clicks on elements
+
+let headingNew = document.getElementsByTagName('h2')[0];
+headingNew.addEventListener('click', event => console.log('heading was clicked'));
+// 'click' is name of the event, 2nd argument is a handler function, 3rd optional, bubbling or capture phase
+
+// event delegation: bubble up
+
+let list = document.getElementsByTagName('ul')[0];
+list.addEventListener('click', event => {
+    console.log('List was clicked!'); // would call body eventHandler if not stopped
+    event.stopPropagation(); // will prevent travelling any furthur from this handler
+});
+
+
+function bodyClicked(event) {
+    console.log('Body got clicked!');
+}
+document.body.addEventListener('click', bodyClicked);
+document.body.removeEventListener('click', bodyClicked); // removes a named eventhandler function
+
+// Event object has another useful method, prevent deault. it is useful when element is
+// an anchor, when an anchor is clicked it goes to the href link. using this we can stop
+// this default behaviour
+
+let anchor = document.createElement('a');
+anchor.textContent = 'Link to Crownstack';
+anchor.setAttribute('href', 'https://crownstack.com');
+document.body.appendChild(anchor);
+
+anchor.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+});
+
 
 
 
