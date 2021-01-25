@@ -29,25 +29,39 @@
 
 // then() method also returns a promise.
 
-function getNumberfact(url) {
-    return new Promise(function (resolve, reject) {
-        let req = new XMLHttpRequest();
+// function getNumberfact(url) {
+//     return new Promise(function (resolve, reject) {
+//         let req = new XMLHttpRequest();
 
-        req.onload = function() {
-            if (this.status === 200) {
-                resolve(req.responseText);
-            } else {
-                reject(req.statusText);
-            }
-        }
+//         req.onload = function() {
+//             if (this.status === 200) {
+//                 resolve(req.responseText);
+//             } else {
+//                 reject(req.statusText);
+//             }
+//         }
 
-        req.open('GET', url, true);
-        req.send();
-    });
+//         req.open('GET', url, true);
+//         req.send();
+//     });
 
-}
+// }
 
-getNumberfact('https://numbersapi.com/98').then(
-    response => console.log(response),
-    error => console.log(error)
-);
+// getNumberfact('https://numbersapi.com/98').then(
+//     response => console.log(response),
+//     error => console.log(error)
+// );
+
+let p = new Promise((resolve, reject) => {
+    let a = 1 + 4
+    if (a == 2)
+        resolve('Success!')
+    else 
+        reject('Failed!')
+})
+
+p.then(msg => console.log('This is in then:', msg))
+.catch(msg => console.log('This is in the catch:', msg))
+
+// Reference: https://www.youtube.com/watch?v=2IPw-mWe10U&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=39
+// https://www.youtube.com/watch?v=DHvZLI7Db8E
