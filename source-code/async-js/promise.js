@@ -1,12 +1,53 @@
 // An action that hasn't yet completed and allows us to add handlers for an eventual
-// success or failure of an asynchronous action
+// success or failure of an asynchronous action like an HTTP request
 
-let myPromise = new Promise(function (resolve, reject) { // executor function
-    (Math.random() < 5) ? resolve('SUCCESS!') : reject('FAILURE');
-});
+// let myPromise = new Promise(function (resolve, reject) { // executor function
+//     let randomVal = Math.random();
+//     console.log(randomVal);
+//     (randomVal < .5) ? resolve('SUCCESS!') : reject('FAILURE');
+    
+// });
 
-myPromise.then(function (msg) {
-    console.log(msg, 'The promise was resolved!');
-},  function (err) {
-        console.log(err, 'The promise was rejected!');
-});
+// myPromise.then(function (msg) {
+//     console.log(msg, 'The promise was resolved!');
+// },  function (err) {
+//         console.log(err, 'The promise was rejected!');
+// });
+
+// success and failure handlers will be invoked at some point in the future when promise
+// resolves or rejects. These states of being resolved or rejected are collectively known
+// as settled. So when promise has been settled either it is resolved or rejected.
+
+// Before it is resolved it is in the state of being in pending.
+
+// Promise object can be in one of 3 states:
+// Pending
+// Fulfilled ] Settled
+// Rejected  ]
+
+// A promise can be rejected or resolved once so it can be settled once.
+
+// then() method also returns a promise.
+
+function getNumberfact(url) {
+    return new Promise(function (resolve, reject) {
+        let req = new XMLHttpRequest();
+
+        req.onload = function() {
+            if (this.status === 200) {
+                resolve(req.responseText);
+            } else {
+                reject(req.statusText);
+            }
+        }
+
+        req.open('GET', url, true);
+        req.send();
+    });
+
+}
+
+getNumberfact('https://numbersapi.com/98').then(
+    response => console.log(response),
+    error => console.log(error)
+);

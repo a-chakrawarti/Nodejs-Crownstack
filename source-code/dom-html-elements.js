@@ -110,7 +110,7 @@ let target = document.getElementById('target');
 target.appendChild(df);
 
 // DOM Events: Interactive by responding to eventHandlers for different user actions on UI:
-
+// Document Object Model: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
 // Clicks on elements
 
 let headingNew = document.getElementsByTagName('h2')[0];
