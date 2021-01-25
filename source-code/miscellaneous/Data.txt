@@ -1,0 +1,1 @@
+This contains data that needs to be accessed using AJAX.
