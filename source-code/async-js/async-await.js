@@ -15,12 +15,18 @@
 // console.log('DONE!');
 
 async function hello() { // This returns a promise object
-    return 'Hello!'
+    console.log('Inside hello!')
+    const response = await fetch('https://api.github.com/users'); // handles asynchronously
+    console.log('Before response')
+    const user = await response.json();
+    console.log('Users resolved!')
+    return user
 }
 
 console.log('Before greeting.');
 let greet = hello();
 console.log('After greeting.');
 console.log(greet);
+greet.then(data => console.log(data))
 console.log('End of greeting.');
 
