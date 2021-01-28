@@ -57,12 +57,18 @@ console.log('How many kms you walked today?')
 // fetch-api
 
 async function getData() {
-    url = 'https://api.github.com/users';
-    response = await fetch(url);
-    data = await response.json();
-    // console.log(data) 
-    for (let name in data) {
-        console.log(data[name].login)
+    try {
+        url = 'https://api.github.com/users';
+        response = await fetch(url);
+        data = await response.json();
+        // console.log(data) 
+        for (let name in data) {
+            console.log(data[name].login)
+        }
+    } catch (error) {
+        console.log(error)
+    } finally {
+        console.info('getData() execution complete!')
     }
 }
 
