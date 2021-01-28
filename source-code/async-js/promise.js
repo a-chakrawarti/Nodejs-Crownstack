@@ -94,3 +94,28 @@ newPromise(`${char}:`).then(res => {
 })
 .then(res => console.log(res))
 .catch(res=> console.log(res))
+
+// Promise.all(): waits for all promises to succeed and fails if any 
+// of the promises in the array fails
+
+const promise1 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Promise1 resolved');
+    }, 2000);
+});
+
+const promise2 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Promise2 resolved');
+    }, 1500);
+});
+
+const promise3 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject('Promise3 rejected');
+    }, 1000);
+});
+   
+Promise.all([promise1, promise2, promise3])
+.then((data) => console.log(data[0], data[1], data[2]))
+.catch((error) => console.log(error));
