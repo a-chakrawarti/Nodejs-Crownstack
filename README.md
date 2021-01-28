@@ -58,3 +58,10 @@
 - [MDN Web Docs: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 - [freeCodeCamp: JavaScript Fundamentals](https://www.freecodecamp.org/news/learn-these-javascript-fundamentals-and-become-a-better-developer-2a031a0dc9cf/)
 - [DigitalOcean: How to code in JavaScript](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-javascript)
+
+### Good Articles:
+| Topic | Link |
+|-------|------|
+|Understanding Asynchronous JavaScript|https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff|
+|Understanding Promises in JavaScript|https://blog.bitsrc.io/understanding-promises-in-javascript-c5248de9ff8f|
+|DigitalOcean: Event-Driven Programming in Node.js|https://www.digitalocean.com/community/tutorials/nodejs-event-driven-programming|

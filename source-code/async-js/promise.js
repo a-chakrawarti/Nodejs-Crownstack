@@ -52,16 +52,45 @@
 //     error => console.log(error)
 // );
 
-let p = new Promise((resolve, reject) => {
-    let a = 1 + 4
-    if (a == 2)
-        resolve('Success!')
-    else 
-        reject('Failed!')
-})
+// let p = new Promise((resolve, reject) => {
+//     let a = 1 + 4
+//     if (a == 2)
+//         resolve('Success!')
+//     else 
+//         reject('Failed!')
+// })
 
-p.then(msg => console.log('This is in then:', msg))
-.catch(msg => console.log('This is in the catch:', msg))
+// p.then(msg => console.log('This is in then:', msg))
+// .catch(msg => console.log('This is in the catch:', msg))
 
 // Reference: https://www.youtube.com/watch?v=2IPw-mWe10U&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=39
 // https://www.youtube.com/watch?v=DHvZLI7Db8E
+
+function newPromise(msg) {
+    return new Promise((resolve, reject) => {
+        const strong = Math.round(Math.random())
+        console.log(strong)
+        if (strong) {
+            resolve(msg + 'I kept my promise, m\'lady!')
+        } else {
+            reject(
+                console.log(msg,'I have failed you m\'lady!')
+            )
+        }
+
+    });
+}
+
+char = 'Jon Snow'
+
+const oldPromise = new Promise((resolve, reject) => {
+    resolve(`You know nothin\' ${char}!`);
+})
+
+
+newPromise(`${char}:`).then(res => {
+    console.log(res);
+    return oldPromise;    
+})
+.then(res => console.log(res))
+.catch(res=> console.log(res))
