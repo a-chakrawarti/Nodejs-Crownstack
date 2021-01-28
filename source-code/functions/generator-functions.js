@@ -1,5 +1,5 @@
 // Generator functions
-// Don not return to completion, return a value, pause and resumed any time later.
+// Do not run to completion, return a value, pause and resumed any time later.
 // Can be picked up from where they are left off and continue processing.
 // sometimes returing many values before they actually end. 
 
