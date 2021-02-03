@@ -5,18 +5,18 @@ clockDiv.setAttribute("id", "clock");
 let clockElement = document.getElementById('clock')
 
 // adding 'st', 'nd', 'rd', 'th' on dates
-function getDaySuffix(day) {
-    let daySuffix;
-    if (day == 1) {
-        daySuffix = "st"
-    } else if (day == 2) {
-        daySuffix == "nd"
-    } else if (day == 3) {
-        daySuffix == "rd"
+function getDateSuffix(date) {
+    let dateSuffix;
+    if (date == 1) {
+        dateSuffix = "st"
+    } else if (date == 2) {
+        dateSuffix == "nd"
+    } else if (date == 3) {
+        dateSuffix == "rd"
     } else {
-        daySuffix = "th"
+        dateSuffix = "th"
     }
-    return daySuffix;
+    return dateSuffix;
 }
 
 
@@ -25,10 +25,12 @@ function updateTime() {
 
     // day and date
     var year = currentDate.getFullYear();
-    var day = currentDate.getDate();
+    var day = currentDate.getDay() - 1;
+    var date = currentDate.getDate();
     var month = currentDate.getMonth()
+    var dayName = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
     var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    var daySuffix = getDaySuffix(day);
+    var dateSuffix = getDateSuffix(date);
 
     // time 
     var hours = currentDate.getHours();
@@ -53,7 +55,7 @@ function updateTime() {
     if (mins < 10) mins = "0" + mins;
     if (secs < 10) secs = "0" + secs;
 
-    clockElement.innerHTML = `Today is ${day}${daySuffix} ${monthName[month]}, ${year}</br>
+    clockElement.innerHTML = `Today is ${dayName[day]} - ${date}${dateSuffix} ${monthName[month]}, ${year}</br>
     <b>Current time is: </b>${hours1}:${mins}:${secs} ${strToAppend}`
 }
 
