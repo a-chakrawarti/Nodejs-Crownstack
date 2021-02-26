@@ -127,6 +127,65 @@ let x = 'hello', y = 'world';
 
 let obj = {x: 'x', y: 'y', z: 'z'}; // Comma separator
 
-// ...something; // Spread Operator
+// Spread Operator
+
+console.log('------------------------------ SPREAD OPERATOR -----------------------------------')
+
+// add the elements of an existing array into a new array
+
+let fruitsToAdd = ['mango', 'guava']
+
+let fruitsInStall = ['apple', 'jackfruit', ...fruitsToAdd, 'grapes', 'coconut']
+
+console.log(fruitsInStall);
+
+// pass elements of an array as arguments to a function
+
+function multiplyThreeNumbers(a, b, c) {
+    console.log(a*b*c);
+}
+
+let numbers = [10, 20, 3, 40] 
+
+multiplyThreeNumbers(...numbers); // will ignore the last element since fn expects for only 3 parameters
+
+// copy arrays
+
+let arrayOne = ['warmup', 'starter', 'maincourse', 'dessert'];
+
+let arrayTwo = [...arrayOne]
+
+arrayTwo.push('water')
+
+console.log(arrayTwo)
+
+// concatenate arrays
+
+let arr1 = [0, 2, 4]
+let arr2 = [1, 3, 5]
+
+console.log('Using concat method - ', arr1.concat(arr2).sort()); // old method
+
+console.log(arr1);
+
+arr1 = [...arr1, 6, 7, 8, 9, ...arr2] // flexibility
+
+console.log(`Using spread operator to concatenate - ${arr1.sort()}`);
+
+
+// Rest Operator 
+
+// Condense multiple elements into an array
+
+console.log('------------------------------ REST OPERATOR -----------------------------------')
+
+function multiply(multiplier, ...numbers) {
+    let multiplierArr = numbers.map( ele => multiplier * ele)
+    console.log(multiplierArr);
+    let val = multiplierArr.reduce((sum, ele) => sum + ele, 0);
+    console.log(val);
+}
+
+multiply(4, 1, 2, 3);
 
 // TO_DO: Bitwise Operator
